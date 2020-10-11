@@ -5,6 +5,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	</head>
 	<body>
 
@@ -15,58 +17,26 @@
 			</header>
 
 		<!-- Nav -->
-		<nav class="navbar navbar-inverse navbar-default">
-			<div class="container">
-				<div class="navbar-header">
-					<!-- menu button -->
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-						data-target="#menu" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-				<!-- navbar collapse menu -->
-				<div id="menu" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-								Menu <span class="caret"></span></a>
-							<<div class="scrollable-menu-container">
-							<ul class="dropdown-menu scrollable-menu" role="menu">
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Item</a></li>
-								<li class="divider" role="separator"></li>
-								<li><div class="separateme">
-										 <a href="#"><span class="glyphicon glyphicon-plus-sign"></span>                                        Add a new item</a>
-										 </div></li>
-							</ul>
+			<nav id="menu">
+				<ul class="links">
+						<li class="nav-item active">
+						  <a class="nav-link" href="index.html">Home</a>
 						</li>
+					<ul id="menu">
+						<li class="nav-item">
+							<select class="custom-select">
+							  <option selected>Open this select menu</option>
+							  <option value="1">One</option>
+							  <option value="2">Two</option>
+							  <option value="3">Three</option>
+							</select>
+						  </li>
+					<li><a href="https://github.com/RBarrigaB/Pagina_descriptiva-Iguanas">Página de Iguanas</a></li>
+					<li><a href="https://github.com/RBarrigaB/Pagina_ventas-Cuppon">Página de ventas "Cuppon"</a></li>
 					</ul>
-						 </div><!-- /scrollable-menu-container -->
-				</div>
-			</div>
-		</nav> <!-- /navbar -->
+				</ul>
+			</nav>
+
 		<!-- Banner -->
 			<section class="banner full">
 				<article>
@@ -225,6 +195,11 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+			<script
+				src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+			<script
+				src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 	</body>
 </html>
