@@ -1,0 +1,78 @@
+{
+    "title": "Portafolio - Reinaldo Barriga",
+    "name": "Reinaldo Barriga",
+    "navHome": "Home",
+    "navResume": "Experiencia profesional",
+    "navPortafolio": "Portafolio",
+    "navContacto": "Contacto",
+    "proyectos": [
+        {   
+            "name": "Página Iguanas",
+            "href": "https://rbarrigab.github.io/IguanasPage/"
+        },
+        {   
+            "name": "Sitio Web Cuppon",
+            "href": "https://rbarrigab.github.io/cuppon/"
+        },
+        {   
+            "name": "Tienda Suricata",
+            "href": "https://rbarrigab.github.io/MarketPage/"
+        },
+        {   
+            "name": "Formulario con validación",
+            "href": "https://rbarrigab.github.io/CheckForm"
+        },
+        {   
+            "name": "Calculadora simple",
+            "href": "https://rbarrigab.github.io/BasicalcJS/"
+        },
+        {   
+            "name": "Página Trivia",
+            "href": "https://rbarrigab.github.io/QuestionsPage/"
+        },
+        {   
+            "name": "Formulario reserva de horas",
+            "href": "https://rbarrigab.github.io/MedicalForm/"
+        },
+        {   
+            "name": "Pokedex",
+            "href": "https://rbarrigab.github.io/pokedex"
+        },
+        {   
+            "name": "Compras y facturación",
+            "href": "https://github.com/RBarrigaB/Pagina_FacturaConControlAcceso"
+        },
+        {   
+            "name": "Listar usuarios",
+            "href": "https://github.com/RBarrigaB/Sitio_ListarInscripciones"
+        },
+        {   
+            "name": "Conoce tu Horoscopo chino",
+            "href": "https://github.com/RBarrigaB/HoroscopoChino"
+        },
+        {   
+            "name": "Sitio de noticias",
+            "href": "https://github.com/RBarrigaB/SistemaDeNoticias"
+        },
+        {   
+            "name": "Manipular lista de usuarios",
+            "href": "https://github.com/RBarrigaB/ListadoRegistro"
+        },
+        {   
+            "name": "Manipular lista de productos",
+            "href": "https://github.com/RBarrigaB/ManejoProductos"
+        },
+        {   
+            "name": "API Rest creación",
+            "href": "https://github.com/RBarrigaB/CreateAPIRest"
+        },
+        {   
+            "name": "API Rest consumo",
+            "href": "https://github.com/RBarrigaB/ConsumeAPIRest"
+        },
+        {
+            "name": "CRUD de productos",
+            "href": "https://github.com/RBarrigaB/desafio_alura_geek"
+        }
+    ]
+}

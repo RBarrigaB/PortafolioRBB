@@ -1,0 +1,11 @@
+{
+    "aboutMeLabel": "Sobre mí",
+    "aboutMe": ["Analista Programador Computacional de Duoc UC e Ingeniero Civil de la Universidad de Valparaíso;",
+    "Actualmente trabajo como Software Engineer en Equifax. Cuento con diversos conocimientos en programación (Java EE, Javascript, Matlab, HTML5, CSS3, Bootstrap5", 
+    "Angular 17, Spring boot 3, Apigee, Cypress, RestAssured, API Rest, Thymeleaf, PostgresQL y Oracle BD) cuento con sólidos conocimientos en el área TI",
+    "luego de tener 4 años de experiencia en el rubro.", 
+    "Soy un profesional versátil, con habilidades comunicativas y buena capacidad de adaptación, lo cual me permite adquirir conocimientos ágilmente.",
+    "Siempre trabajo orientado al logro de objetivos de la organización, beneficiando el trabajo colaborativo en equipo."],
+    "fullImageProfile":"assets/img/perfil_completo.jpg",
+    "generalComments": "Cuento con una certificación de inglés nivel B2. He trabajado como ingeniero de calidad automatizando procesos con Cypress, JMeter y RestAssured. Por otro lado, he trabajado como desarrollador de software con tecnologías como SpringBoot 3, Angular 17, Apigee, PostgresQL, Oracle DB y Ionic para desarrollo de aplicaciones móbiles. Actualmente trabajo como ingeniero de software en Equifax."
+}

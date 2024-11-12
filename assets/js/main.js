@@ -1,9 +1,4 @@
-/**
-* Template Name: iPortfolio - v1.4.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -20,32 +15,44 @@
     });
   }
 
-  // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .scrollto', function(e) {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      e.preventDefault();
-      var target = $(this.hash);
-      if (target.length) {
-
-        var scrollto = target.offset().top;
-
-        $('html, body').animate({
-          scrollTop: scrollto
-        }, 1500, 'easeInOutExpo');
-
-        if ($(this).parents('.nav-menu, .mobile-nav').length) {
-          $('.nav-menu .active, .mobile-nav .active').removeClass('active');
-          $(this).closest('li').addClass('active');
-        }
-
-        if ($('body').hasClass('mobile-nav-active')) {
-          $('body').removeClass('mobile-nav-active');
-          $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
-        }
-        return false;
+    e.preventDefault();
+    
+    if ($(this).attr('href') === '#portfolio') {
+      if ($(this).parents('.nav-menu, .mobile-nav').length) {
+        $('.nav-menu .active, .mobile-nav .active').removeClass('active');
+        $(this).closest('li').addClass('active');
       }
+      return;
+    }
+  
+    if ($(this).parents('.nav-menu, .mobile-nav').length) {
+      $('.nav-menu .active, .mobile-nav .active').removeClass('active');
+      $(this).closest('li').addClass('active');
+    }
+  
+    if ($('body').hasClass('mobile-nav-active')) {
+      $('body').removeClass('mobile-nav-active');
+      $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
     }
   });
+
+  $(document).ready(function() {
+    $(document).on('click', '.nav-menu a', function(e) {
+      e.preventDefault();
+
+      var collapseArrow = document.getElementById("collapse__arrow");
+  
+      if (collapseArrow.classList.contains("bx-chevron-right")) {
+        collapseArrow.classList.remove("bx-chevron-right");
+        collapseArrow.classList.add("bx-chevron-down");
+      } else if (collapseArrow.classList.contains("bx-chevron-down")) {
+        collapseArrow.classList.remove("bx-chevron-down");
+        collapseArrow.classList.add("bx-chevron-right");
+      }
+    });
+  });
+  
 
   // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function() {
@@ -120,7 +127,7 @@
     time: 1000
   });
 
-  // Skills section
+  // Sección de habilidades
   $('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
@@ -129,7 +136,6 @@
     offset: '80%'
   });
 
-  // Porfolio isotope and filter
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item',
