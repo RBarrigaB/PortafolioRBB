@@ -26,13 +26,13 @@
 	<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-	<!-- Template Main CSS File -->
+	<!-- Template principal CSS File -->
 	<link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-	<!-- ======= Mobile nav toggle button ======= -->
+	<!-- ======= Botón nav toggle para mobile ======= -->
 	<button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
 	<!-- ======= Header ======= -->
@@ -56,15 +56,16 @@
 			<!-- ======= Nav menú ======= -->
 			<nav class="nav-menu">
 				<ul>
-					<li class="active"><a href="index.html"><i class="bx bx-home"></i> <span id="nav__home"></span></a></li>
-					<li><a href="#about"><i class="bx bx-user"></i> <span  class="about__me__label"></span></a></li>
+					<li class="active"><a href="index.html"><i class="bx bx-home"></i> <span id="nav__home"></span></a>
+					</li>
+					<li><a href="#about"><i class="bx bx-user"></i> <span class="about__me__label"></span></a></li>
 					<li><a href="#resume"><i class="bx bx-file-blank"></i> <span id="nav__resume"></span></a></li>
 					<div class="panel-group">
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h4 class="panel-title">
-									<a data-toggle="collapse" href="#portfolio"><i
-											class="bx bx-book-content"></i><span id="nav__portafolio"></span><i class="bx 
+									<a data-toggle="collapse" href="#portfolio"><i class="bx bx-book-content"></i><span
+											id="nav__portafolio"></span><i class="bx 
 											bx-chevron-right" id="collapse__arrow"></i></a>
 								</h4>
 							</div>
@@ -75,7 +76,7 @@
 						</div>
 					</div>
 
-					<li><a href="#contact" id="nav__contacto"><i class="bx bx-envelope"></i> Contacto</a></li>
+					<li><a href="#contact" id="nav__contacto"></a></li>
 
 				</ul>
 			</nav><!-- Menú nav -->
@@ -87,8 +88,9 @@
 	<!-- ======= Sección leyenda ======= -->
 	<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
 		<div class="hero-container" data-aos="fade-in">
-			<h1>Reinaldo Barriga</h1>
-			<p><span class="typed" data-typed-items="Ingeniero de software, Ingeniero de calidad, Ingeniero civil" id="data-typed"></span>
+			<h1 id="leyenda__name"></h1>
+			<p><span class="typed" data-typed-items="Ingeniero de software, Ingeniero de calidad, Ingeniero civil"
+					id="data-typed"></span>
 			</p>
 		</div>
 	</section><!-- Sección leyenda -->
@@ -110,36 +112,15 @@
 						<img class="img-fluid" alt="" id="full__image__profile">
 					</div>
 					<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-						<h3>Ingeniero Civil &amp; Desarrollador de software</h3>
-						<p class="font-italic">
-							Información relevante sobre mí:
-						</p>
+						<h3 id="about__me__title"></h3>
+						<p class="font-italic" id="about__me__info__label"></p>
 						<div class="row">
-							<div class="col-lg-6">
-								<ul>
-
-									<li><i class="icofont-rounded-right"></i> <strong>Celular:</strong> +56944227115
-									</li>
-									<li><i class="icofont-rounded-right"></i> <strong>Ciudad:</strong> Santiago,
-										Chile</li>
-									<li><i class="icofont-rounded-right"></i> <strong>Correo:</strong>
-										rbarriga.ing@gmail.com</li>
-								</ul>
-							</div>
-							<div class="col-lg-6">
-								<ul>
-									<li><i class="icofont-rounded-right"></i> <strong>Edad:</strong> 35</li>
-									<li><i class="icofont-rounded-right"></i> <strong>Profesión:</strong> Ingeniero</li>
-									<li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Disponible
-									</li>
+							<div class="col-lg-12">
+								<ul id="about__me__personal__data">
 								</ul>
 							</div>
 						</div>
-						<p class="text-justify">
-							Cuento con una certificación de inglés nivel B2. 
-							He trabajado como ingeniero de calidad automatizando procesos con Cypress, JMeter y RestAssured. Por otro lado, 
-							he trabajado como desarrollador de software con tecnologías como SpringBoot 3, Angular 17, Apigee, PostgresQL,
-							Oracle DB y Ionic para desarrollo de aplicaciones móbiles. Actualmente trabajo como ingeniero de software en Equifax.
+						<p class="text-justify" id="about__me__description">
 						</p>
 					</div>
 				</div>
@@ -152,82 +133,19 @@
 			<div class="container">
 
 				<div class="section-title">
-					<h2>Formación</h2>
-					<p class="text-justify">Cuento con 4 años de experiencia como ingeniero de software. Mis conocimientos abarcan el desarrollo de software
-						usando el patrón de arquitectura de software, MVC, principalmente usando Spring boot, bases de datos relacionales como PostgresQL y Oracle DB.
-						Además, he trabajado usando Angular 17 para frontend. Adicionalmente, he desarrollado aplicaciones móviles usando Ionic. 
-						Así también, he trabajado en la automatización de pruebas para frontend con Cypress, backend con RestAssured y rendimiento con JMeter.
-						Cuento con un nivel de inglés Intermedio 
-						certificado por British Council. </p>
+					<h2 id="formacion__label__title"></h2>
+					<p class="text-justify" id="formacion__descripcion"></p>
 				</div>
 
 				<div class="row">
-					<div class="col-lg-6" data-aos="fade-up">
-						<h3 class="resume-title">Resumen</h3>
+					<div class="col-lg-6" data-aos="fade-up" id="educacion__container">
+						<h3 class="resume-title" id="resumen__titulo"></h3>
 						<div class="resume-item pb-0">
-							<h4>Reinaldo Barriga B.</h4>
-							<p class="text-justify"><em>Soy un profesional apasionado por los desafíos, busco ser
-									innovador, generar valor
-									agregado en mi trabajo y fortalecer a mi equipo.</em></p>
-							<ul>
-								<li>Santiago, Chile</li>
-								<li>(+569) 944227115</li>
-								<li>rbarriga.ing@gmail.com</li>
-							</ul>
-						</div>
-
-						<h3 class="resume-title">Educación</h3>
-						<div class="resume-item">
-							<h4>Analista programador computacional</h4>
-							<h5>2022-2024</h5>
-							<p class="text-justify"><em>Duoc UC</em></p>
-							<p class="text-justify">Analista programador computacional titulado</p>
-						</div>
-						<div class="resume-item">
-							<h4>Desarrollador Web FullStack Java</h4>
-							<h5>2020 (Enero - Agosto)</h5>
-							<p class="text-justify"><em>Edutecno-Talento Digital - Sence, Santiago</em></p>
-							<p class="text-justify">Becario egresado de programa intensivo de formación para el
-								desarrollo web fullstack,
-								impulsado por el
-								Gobierno de Chile</p>
-						</div>
-						<div class="resume-item">
-							<h4>Ingeniero Civil Oceánico &amp; Licenciado en Ciencias de la Ingeniería</h4>
-							<h5>2008 - 2013</h5>
-							<p class="text-justify"><em>Universidad de Valparaíso, Valparaíso</em></p>
-							<p class="text-justify">Memoria de título: "Análisis comparativo entre módulos 2D y 3D del
-								modelo Delft3D Flow
-								para evaluar el potencial energético asociado a las corrientes de marea en Canal
-								Chacao".</p>
+							<h4 id="resumen__name"></h4>
+							<p class="text-justify" id="resumen__desc"></p>
 						</div>
 					</div>
-					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-						<h3 class="resume-title">Experiencia profesional</h3>
-						<div class="resume-item">
-							<h4>Ingeniero de software</h4>
-							<h5>2020 - Actualidad</h5>
-							<p><em>Equifax Chile Ltda, Santiago de Chile</em></p>
-							<ul>
-								<li>Desarrollo de servicios, interfaces y proxies para proyecto Cyber V10. </li>
-								<li>Elaboración de patrones de diseño e implementación de lógica de programación necesaria.</li>
-								<li>Automatización de pruebas para testing en frontend, backend y para pruebas de rendimiento</li>
-							</ul>
-						</div>
-						<div class="resume-item">
-							<h4>Desarrollador de software</h4>
-							<h5>2019-2020</h5>
-							<p><em>Adevcom Ltda, Las Condes, Chile </em></p>
-							<ul>
-								<li>Revisión y elaboración de informes técnicos de infraestructura en el rol de ATO para
-									EPTSV y EPCO.</li>
-								<li>Coordinación y participación del equipo que desarrollo los proyectos “Evaluar el
-									Impacto de Contenedores Producto de un Tsunami en Valparaíso, T-2 TCVAL” y “Asesoría
-									técnica para Respuesta a ICSARA y Aprobación del SEA en Hotel Punta Piqueros”. </li>
-								<li>Evaluación y elaboración de propuestas técnicas en respuesta a TDR.</li>
-								<li>Automatización de procesos de cálculos usando Mathcad y Matlab.</li>
-							</ul>
-						</div>
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100" id="experiencia__container">
 					</div>
 				</div>
 			</div>
@@ -238,223 +156,21 @@
 			<div class="container">
 
 				<div class="section-title">
-					<h2>Portafolio</h2>
-					<p class="text-justify">A continuación se observan diversos proyectos desarrollados, usando: Html5,
-						Css3, Bootstrap4, Javascript, Jquery, Ajax, Java SE, Java EE, JDBC Template, Hibernate, JPA,
-						JSP, Thymeleaf,
-						Spring, Spring boot & la base de datos relacionales MYSQL</p>
+					<h2 id="portafolio__titulo"></h2>
+					<p class="text-justify" id="portafolio__introduccion"></p>
 				</div>
 
 				<div class="row" data-aos="fade-up">
 					<div class="col-lg-12 d-flex justify-content-center">
 						<ul id="portfolio-flters">
-							<li data-filter="*" class="filter-active">Todos</li>
-							<li data-filter=".filter-spring">Spring Boot</li>
-							<li data-filter=".filter-htmljs">Html+Bootstrap+JS</li>
-							<li data-filter=".filter-jdbc">JDBC Template</li>
 						</ul>
 					</div>
 				</div>
 
-				<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-htmljs">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://rbarrigab.github.io/IguanasPage/" title="Proyecto"><i
-										class="bx bx-plus"></i></a>
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/IguanasPage" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-htmljs">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer" href="https://rbarrigab.github.io/cuppon/"
-									title="Proyecto 2"><i class="bx bx-plus"></i></a>
-								<a target="_blank" rel="noopener noreferrer" href="https://github.com/RBarrigaB/cuppon/"
-									title="Código fuente"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-htmljs">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://rbarrigab.github.io/CheckForm" title="Proyecto 3"><i
-										class="bx bx-plus"></i></a>
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/CheckForm" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-htmljs">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://rbarrigab.github.io/BasicalcJS/" title="Proyecto 4"><i
-										class="bx bx-plus"></i></a>
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/BasicalcJS/" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-htmljs">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://rbarrigab.github.io/QuestionsPage/" title="Proyecto 5"><i
-										class="bx bx-plus"></i></a>
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/QuestionsPage" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-htmljs">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://rbarrigab.github.io/MedicalForm/" title="Proyecto 6"><i
-										class="bx bx-plus"></i></a>
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/MedicalForm" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-htmljs">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer" href="https://rbarrigab.github.io/pokedex"
-									title="Proyecto 7"><i class="bx bx-plus"></i></a>
-								<a target="_blank" rel="noopener noreferrer" href="https://github.com/RBarrigaB/pokedex"
-									title="Código fuente"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-jdbc">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-8.png" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/Pagina_FacturaConControlAcceso"
-									title="Código fuente"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-jdbc">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-9.png" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/Sitio_ListarInscripciones"
-									title="Código fuente"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-jdbc">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-10.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/HoroscopoChino" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-spring">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-11.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/SistemaDeNoticias" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-spring">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-12.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/ListadoRegistro" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-spring">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-13.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/ManejoProductos" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-spring">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-14.png" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/CreateAPIRest" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-spring">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-15.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/ConsumeAPIRest" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-htmljs">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-16.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://rbarrigab.github.io/MarketPage" title="Proyecto 4"><i
-										class="bx bx-plus"></i></a>
-								<a target="_blank" rel="noopener noreferrer"
-									href="https://github.com/RBarrigaB/MarketPage" title="Código fuente"><i
-										class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
+				<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100" id="portafolio__contenido">
 
 				</div>
+			</div>
 		</section><!-- End Portfolio Section -->
 
 		<!-- ======= Contact Section ======= -->

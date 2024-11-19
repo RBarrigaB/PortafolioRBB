@@ -2,6 +2,7 @@
 !(function($) {
   "use strict";
 
+  let portfolioIsotope;
   // Hero typed
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
@@ -54,7 +55,6 @@
   });
   
 
-  // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function() {
     if (window.location.hash) {
       var initial_nav = window.location.hash;
@@ -82,7 +82,6 @@
     }
   });
 
-  // Navigation active state on scroll
   var nav_sections = $('section');
   var main_nav = $('.nav-menu, .mobile-nav');
 
@@ -105,7 +104,6 @@
     });
   });
 
-  // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -121,13 +119,11 @@
     return false;
   });
 
-  // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
   });
 
-  // Sección de habilidades
   $('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
@@ -136,29 +132,38 @@
     offset: '80%'
   });
 
-  $(window).on('load', function() {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item',
-      layoutMode: 'fitRows'
-    });
-
-    $('#portfolio-flters li').on('click', function() {
+  $(document).on('elementosCreados', function() {
+    var portfolioIsotope = $('.portfolio-container').data('isotope');
+    
+    if (!portfolioIsotope) {
+      portfolioIsotope = $('.portfolio-container').isotope({
+        itemSelector: '.portfolio-item',
+        layoutMode: 'fitRows'
+      });
+    }
+    
+    portfolioIsotope.isotope('reloadItems');
+    
+    setTimeout(function() {
+      portfolioIsotope.isotope('layout');
+    }, 10);
+  
+    // Configuración de filtros
+    $('#portfolio-flters').on('click', 'li', function() {
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
-
       portfolioIsotope.isotope({
         filter: $(this).data('filter')
       });
-      aos_init();
+      aos_init(); 
     });
-
-    // Initiate venobox (lightbox feature used in portofilo)
-    $(document).ready(function() {
-      $('.venobox').venobox();
-    });
+    $('.venobox').venobox();
   });
+  
+  
 
-  // Testimonials carousel (uses the Owl Carousel library)
+
+
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -176,7 +181,6 @@
     }
   });
 
-  // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -184,7 +188,6 @@
     items: 1
   });
 
-  // Init AOS
   function aos_init() {
     AOS.init({
       duration: 1000,
@@ -194,6 +197,9 @@
   }
   $(window).on('load', function() {
     aos_init();
+  });
+  $(window).ready(function() {
+    $('.venobox').venobox();
   });
 
 })(jQuery);

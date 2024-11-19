@@ -1,11 +1,244 @@
 {
-    "aboutMeLabel": "Sobre mí",
-    "aboutMe": ["Analista Programador Computacional de Duoc UC e Ingeniero Civil de la Universidad de Valparaíso;",
-    "Actualmente trabajo como Software Engineer en Equifax. Cuento con diversos conocimientos en programación (Java EE, Javascript, Matlab, HTML5, CSS3, Bootstrap5", 
+  "aboutMeLabel": "Sobre mí",
+  "aboutMe": [
+    "Analista Programador Computacional de Duoc UC e Ingeniero Civil de la Universidad de Valparaíso;",
+    "Actualmente trabajo como Software Engineer en Equifax. Cuento con diversos conocimientos en programación (Java EE, Javascript, Matlab, HTML5, CSS3, Bootstrap5",
     "Angular 17, Spring boot 3, Apigee, Cypress, RestAssured, API Rest, Thymeleaf, PostgresQL y Oracle BD) cuento con sólidos conocimientos en el área TI",
-    "luego de tener 4 años de experiencia en el rubro.", 
+    "luego de tener 4 años de experiencia en el rubro.",
     "Soy un profesional versátil, con habilidades comunicativas y buena capacidad de adaptación, lo cual me permite adquirir conocimientos ágilmente.",
-    "Siempre trabajo orientado al logro de objetivos de la organización, beneficiando el trabajo colaborativo en equipo."],
-    "fullImageProfile":"assets/img/perfil_completo.jpg",
-    "generalComments": "Cuento con una certificación de inglés nivel B2. He trabajado como ingeniero de calidad automatizando procesos con Cypress, JMeter y RestAssured. Por otro lado, he trabajado como desarrollador de software con tecnologías como SpringBoot 3, Angular 17, Apigee, PostgresQL, Oracle DB y Ionic para desarrollo de aplicaciones móbiles. Actualmente trabajo como ingeniero de software en Equifax."
+    "Siempre trabajo orientado al logro de objetivos de la organización, beneficiando el trabajo colaborativo en equipo."
+  ],
+  "fullImageProfile": "assets/img/perfil_completo.jpg",
+  "generalComments": "Cuento con una certificación de inglés nivel B2. He trabajado como ingeniero de calidad automatizando procesos con Cypress, JMeter y RestAssured. Por otro lado, he trabajado como desarrollador de software con tecnologías como SpringBoot 3, Angular 17, Apigee, PostgresQL, Oracle DB y Ionic para desarrollo de aplicaciones móbiles. Actualmente trabajo como ingeniero de software en Equifax.",
+  "aboutMeTitulo": "Ingeniero Civil &amp; Analista programador",
+  "aboutMeInfoLabel": "Información relevante sobre mí:",
+  "personalInfo": [
+    {
+      "label": "Celular",
+      "data": "+56944227115"
+    },
+    {
+      "label": "Edad",
+      "data": "35"
+    },
+    {
+      "label": "Ciudad",
+      "data": "Santiago, Chile"
+    },
+    {
+      "label": "Profesión",
+      "data": "Ingeniero"
+    },
+    {
+      "label": "Correo",
+      "data": "rbarriga.ing@gmail.com"
+    },
+    {
+      "label": "Freelance",
+      "data": "Disponible"
+    }
+  ],
+  "aboutMeDesc": [
+    "Cuento con una certificación de inglés nivel B2.",
+    "He trabajado como ingeniero de calidad automatizando procesos con Cypress, JMeter y RestAssured. Por otro lado,",
+    "he trabajado como desarrollador de software con tecnologías como SpringBoot 3, Angular 17, Apigee, PostgresQL,",
+    "Oracle DB y Ionic para desarrollo de aplicaciones móbiles. Actualmente trabajo como ingeniero de software en Equifax."
+  ],
+  "formacionLabel": "Formación",
+  "formacionDesc": [
+    "Cuento con 4 años de experiencia como ingeniero de software. Mis conocimientos abarcan el desarrollo de software",
+    "usando el patrón de arquitectura de software, MVC, principalmente usando Spring boot, bases de datos relacionales como PostgresQL y Oracle DB.",
+    "Además, he trabajado usando Angular 17 para frontend. Adicionalmente, he desarrollado aplicaciones móviles usando Ionic.",
+    "Así también, he trabajado en la automatización de pruebas para frontend con Cypress, backend con RestAssured y rendimiento con JMeter.",
+    "Cuento con un nivel de inglés Intermedio certificado por British Council."
+  ],
+  "resumen": {
+    "label": "Resumen",
+    "nombre": "Reinaldo Barriga B.",
+    "descripcion": "<em>Soy un profesional apasionado por los desafíos, busco ser innovador, generar valor agregado en mi trabajo y fortalecer a mi equipo.</em>"
+  },
+  "educacion": {
+    "label": "Educación",
+    "titulos": [
+      {
+        "profesion": "Desarrollador front end",
+        "fecha": "2024 - 2025",
+        "institucion": "ONE Oracle Next Education",
+        "descripcion": "Becario cursando programa intensivo de formación front end impartido por Oracle y Alura"
+      },
+      {
+        "profesion": "Analista Programador Computacional",
+        "fecha": "2022-2024",
+        "institucion": "Duoc UC",
+        "descripcion": "Analista programador computacional titulado"
+      },
+      {
+        "profesion": "Desarrollador Web FullStack Java",
+        "fecha": "2020 (Enero - Agosto)",
+        "institucion": "Edutecno-Talento Digital - Sence, Santiago",
+        "descripcion": "Becario egresado de programa intensivo de formación para el desarrollo web fullstack, impulsado por el Gobierno de Chile"
+      },
+      {
+        "profesion": "Ingeniero Civil Oceánico &amp; Licenciado en Ciencias de la Ingeniería",
+        "fecha": "2008 - 2013",
+        "institucion": "<em>Universidad de Valparaíso, Valparaíso</em>",
+        "descripcion": "Memoria de título: Análisis comparativo entre módulos 2D y 3D del modelo Delft3D Flow para evaluar el potencial energético asociado a las corrientes de marea en Canal Chacao."
+      }
+    ]
+  },
+  "experiencia": {
+    "label": "Experiencia profesional",
+    "experienciaLaboral": [
+      {
+        "posicion": "Ingeniero de software",
+        "fecha": "2020 - Actualidad",
+        "lugar": "Equifax Chile Ltda, Santiago de Chile",
+        "actividades": [
+          "Desarrollo backend con Spring Boot 3, frontend con Angular 17 y proxies con Apigee para proyecto Cyber V10.",
+          "Elaboración de patrones de diseño e implementación de lógica de programación necesaria.",
+          "Automatización de pruebas para testing en frontend, backend y para pruebas de rendimiento."
+        ]
+      },
+      {
+        "posicion": "Desarrollador de software",
+        "fecha": "2019-2020",
+        "lugar": "Adevcom Ltda, Las Condes, Chile",
+        "actividades": [
+          "Desarrollador backend para proyecto de SII.",
+          "Elaboración de pruebas automatizadas con framework Cypress.",
+          "Apoyo en revisión de historias y certificación de proyectos para SII, MINAG y SAG."
+        ]
+      }
+    ]
+  },
+  "portafolio": {
+    "titulo": "Portafolio",
+    "introduccion": [
+      "A continuación se observan diversos proyectos desarrollados, usando: Html5",
+      "Css3, Bootstrap4, Javascript, Jquery, Ajax, Java SE, Java EE, JDBC Template, Hibernate, JPA,",
+      "JSP, Thymeleaf, Spring Cloud, Spring boot y bases de datos relacionales."
+    ],
+    "filtros": [
+      {
+        "nombre": "Todos",
+        "tipoFiltro": "*"
+      },
+      {
+        "nombre": "Spring Boot",
+        "tipoFiltro": ".filter-spring"
+      },
+      {
+        "nombre": "Html+Bootstrap+JS",
+        "tipoFiltro": ".filter-htmljs"
+      },
+      {
+        "nombre": "JDBC/JPA Template",
+        "tipoFiltro": ".filter-jdbc"
+      }
+    ],
+    "proyectos": [
+      {
+        "imagen": "assets/img/portfolio/portfolio-1.jpg",
+        "pagina": "https://rbarrigab.github.io/IguanasPage/",
+        "codigoFuente": "https://github.com/RBarrigaB/IguanasPage",
+        "claseFiltro": "filter-htmljs"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-2.jpg",
+        "pagina": "https://rbarrigab.github.io/cuppon/",
+        "codigoFuente": "https://github.com/RBarrigaB/cuppon/",
+        "claseFiltro": "filter-htmljs"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-3.jpg",
+        "pagina": "https://rbarrigab.github.io/CheckForm",
+        "codigoFuente": "https://github.com/RBarrigaB/CheckForm",
+        "claseFiltro": "filter-htmljs"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-4.jpg",
+        "pagina": "https://rbarrigab.github.io/BasicalcJS/",
+        "codigoFuente": "https://github.com/RBarrigaB/BasicalcJS/",
+        "claseFiltro": "filter-htmljs"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-5.jpg",
+        "pagina": "https://rbarrigab.github.io/QuestionsPage/",
+        "codigoFuente": "https://github.com/RBarrigaB/QuestionsPage",
+        "claseFiltro": "filter-htmljs"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-6.jpg",
+        "pagina": "https://rbarrigab.github.io/MedicalForm/",
+        "codigoFuente": "https://github.com/RBarrigaB/MedicalForm",
+        "claseFiltro": "filter-htmljs"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-7.jpg",
+        "pagina": "https://rbarrigab.github.io/pokedex",
+        "codigoFuente": "https://github.com/RBarrigaB/pokedex",
+        "claseFiltro": "filter-htmljs"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-8.png",
+        "pagina": "",
+        "codigoFuente": "https://github.com/RBarrigaB/Pagina_FacturaConControlAcceso",
+        "claseFiltro": "filter-jdbc"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-9.png",
+        "pagina": "",
+        "codigoFuente": "https://github.com/RBarrigaB/Sitio_ListarInscripciones",
+        "claseFiltro": "filter-jdbc"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-10.jpg",
+        "pagina": "",
+        "codigoFuente": "https://github.com/RBarrigaB/HoroscopoChino",
+        "claseFiltro": "filter-jdbc"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-11.jpg",
+        "pagina": "",
+        "codigoFuente": "https://github.com/RBarrigaB/SistemaDeNoticias",
+        "claseFiltro": "filter-spring"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-12.jpg",
+        "pagina": "",
+        "codigoFuente": "https://github.com/RBarrigaB/ListadoRegistro",
+        "claseFiltro": "filter-spring"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-13.jpg",
+        "pagina": "",
+        "codigoFuente": "https://github.com/RBarrigaB/ManejoProductos",
+        "claseFiltro": "filter-spring"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-14.png",
+        "pagina": "",
+        "codigoFuente": "https://github.com/RBarrigaB/CreateAPIRest",
+        "claseFiltro": "filter-spring"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-15.jpg",
+        "pagina": "https://rbarrigab.github.io/IguanasPage/",
+        "codigoFuente": "https://github.com/RBarrigaB/ConsumeAPIRest",
+        "claseFiltro": "filter-spring"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-16.jpg",
+        "pagina": "https://rbarrigab.github.io/MarketPage",
+        "codigoFuente": "https://github.com/RBarrigaB/MarketPage",
+        "claseFiltro": "filter-htmljs"
+      },
+      {
+        "imagen": "assets/img/portfolio/portfolio-17.png",
+        "pagina": "",
+        "codigoFuente": "https://github.com/RBarrigaB/desafio_alura_geek",
+        "claseFiltro": "filter-htmljs"
+      }
+    ]
+  }
 }

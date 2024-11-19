@@ -4,7 +4,8 @@
     "navHome": "Home",
     "navResume": "Experiencia profesional",
     "navPortafolio": "Portafolio",
-    "navContacto": "Contacto",
+    "navContacto": "<i class=\"bx bx-envelope\"></i> Contacto",
+    "leyendaName": "Reinaldo Barriga",
     "proyectos": [
         {   
             "name": "Página Iguanas",
