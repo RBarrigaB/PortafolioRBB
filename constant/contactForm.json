@@ -1,0 +1,14 @@
+{
+    "label": "Contacto",
+    "introduccion": ["Si quieres ponerte en contacto conmigo, me puedes llamar o enviar un correo.",
+    "Para cualquier solicitud o sugerencia, puedes rellenar el formulario y te contactaré a la brevedad"],
+    "emailLabel": "Email",
+    "emailValue":"rbarriga.ing@gmail.com",
+    "celLabel": "Celular",
+    "celValue": "+56944227115",
+    "nameFormLabel": "Nombre",
+    "mailFormLabel": "Mail",
+    "asuntoFormLabel": "Asunto",
+    "mensajeFormLabel": "Mensaje",
+    "submitFormBtnLabel": "Enviar mensaje"
+}

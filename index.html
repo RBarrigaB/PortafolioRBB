@@ -178,10 +178,8 @@
 			<div class="container">
 
 				<div class="section-title">
-					<h2>Contacto</h2>
-					<p class="text-justify">Si quieres contactarme, me puedes llamar o enviar un correo. Cualquier
-						solicitud o sugerencia,
-						puedes rellenar el formulario para ponernos en contacto</p>
+					<h2 id="contact__contacto"></h2>
+					<p id="contact__intro" class="text-justify"></p>
 				</div>
 
 				<div class="row" data-aos="fade-in">
@@ -190,14 +188,14 @@
 						<div class="info">
 							<div class="email">
 								<i class="icofont-envelope"></i>
-								<h4>Email:</h4>
-								<p>rbarriga.ing@gmail.com</p>
+								<h4 id="contact__email__label"></h4>
+								<p id="contact__email__value"></p>
 							</div>
 
 							<div class="phone">
 								<i class="icofont-phone"></i>
-								<h4>Celular:</h4>
-								<p>+56982077299</p>
+								<h4 id="contact__celular__label"></h4>
+								<p id="contact__celular__value"></p>
 							</div>
 						</div>
 
@@ -207,26 +205,26 @@
 						<form action="forms/contact.php" method="post" role="form" class="php-email-form">
 							<div class="form-row">
 								<div class="form-group col-md-6">
-									<label for="name">Nombre</label>
+									<label id="form__name__label" for="name"></label>
 									<input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
 										data-msg="Please enter at least 4 chars" />
 									<div class="validate"></div>
 								</div>
 								<div class="form-group col-md-6">
-									<label for="name">Mail</label>
+									<label id="form__email__label" for="name"></label>
 									<input type="email" class="form-control" name="email" id="email" data-rule="email"
 										data-msg="Please enter a valid email" />
 									<div class="validate"></div>
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="name">Asunto</label>
+								<label id="form__asunto__label" for="name"></label>
 								<input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
 									data-msg="Please enter at least 8 chars of subject" />
 								<div class="validate"></div>
 							</div>
 							<div class="form-group">
-								<label for="name">Mensaje</label>
+								<label id="form__mensaje__label" for="name"></label>
 								<textarea class="form-control" name="message" rows="10" data-rule="required"
 									data-msg="Please write something for us"></textarea>
 								<div class="validate"></div>
@@ -237,7 +235,7 @@
 								<div class="sent-message">Tu mensaje fue enviado. Te contactaré a la brevedad. Gracias!
 								</div>
 							</div>
-							<div class="text-center"><button type="submit">Enviar mensaje</button></div>
+							<div class="text-center"><button type="submit" id="form__submit__btn"></button></div>
 						</form>
 					</div>
 
